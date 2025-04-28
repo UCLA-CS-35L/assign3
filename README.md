@@ -1,6 +1,6 @@
 # Assignment 3 Starter Code
 
-Please refer to the directions available on the [course webpage](cs35l.org/assign/assign3).
+Please refer to the directions available on the [course webpage](https://cs35l.org/assign/assign3).
 
 # Action Items
 Make sure you've followed the Setup instructions before continuing. (Installing Chrome, Node.js, and Python 3.11 and above + running `./helper init`).
