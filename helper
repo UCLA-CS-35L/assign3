@@ -62,7 +62,10 @@ zip_command() {
         echo "Make sure to have a complete log of how you built your solution in chorus-lapilli.txt."
     fi
 
-    npm run zip >/dev/null 2>&1
+    if ! npm run zip >/dev/null 2>&1; then
+        echo "Error: Could not create assign.zip."
+        exit 1
+    fi
     mv chorus-lapilli.zip assign.zip
     echo "Success: Created assign.zip."
 }
