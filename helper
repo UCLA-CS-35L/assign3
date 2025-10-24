@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 IMAGE=ghcr.io/ucla-cs-35l/assign3
 
